@@ -16,5 +16,23 @@ namespace SH_WindowsForms_Task8
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Task1 form = new Task1();
+            form.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Task2 form = new Task2();
+            form.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Task3 form = new Task3();
+            form.Show();
+        }
     }
 }
