@@ -34,5 +34,10 @@ namespace SH_WindowsForms_Task8
             Task3 form = new Task3();
             form.Show();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/vladofon/SH_WindowsForms_Task8");
+        }
     }
 }
