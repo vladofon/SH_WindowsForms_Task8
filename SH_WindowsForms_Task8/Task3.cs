@@ -51,6 +51,10 @@ namespace SH_WindowsForms_Task8
 
             AsyncSumm summdelegate = new AsyncSumm(Summ); AsyncCallback cb = new
             AsyncCallback(CallBackMethod); summdelegate.BeginInvoke(a, b, cb, summdelegate);
+        }
+
+        private void btnWork_Click(object sender, EventArgs e)
+        {
             MessageBox.Show("Робота кипить!!!");
         }
     }

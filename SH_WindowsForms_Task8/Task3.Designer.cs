@@ -51,6 +51,7 @@
             this.btnWork.TabIndex = 15;
             this.btnWork.Text = "Work";
             this.btnWork.UseVisualStyleBackColor = true;
+            this.btnWork.Click += new System.EventHandler(this.btnWork_Click);
             // 
             // btnRun
             // 
